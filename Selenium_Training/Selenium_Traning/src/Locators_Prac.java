@@ -18,7 +18,8 @@ public class Locators_Prac {
 		driver.findElement(By.name("emailAddress")).sendKeys("chakri.gongloor@yopmail.com");
 		driver.findElement(By.cssSelector("input[value='Sign In or Register']")).click();
 		driver.findElement(By.xpath("//a[@id='forgotPassword']")).click();
-
+		driver.manage().window().maximize();
+		driver.manage().window().minimize();
 }
 	
 }	
