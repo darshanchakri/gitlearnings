@@ -20,7 +20,7 @@ public class CreateMethod_AccessMethod {
 	public static String getData2()
 	
 	{
-		System.out.println("This is a Static block by sneha");
+		System.out.println("This is a Static block by snehasudershan");
 		return "String getData2 is been exeuted";
 	}
 }
